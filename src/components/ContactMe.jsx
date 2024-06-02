@@ -27,7 +27,7 @@ export default function ContactMe() {
       <p className="text-dimWhite xxs:text-xl mb-3 lg:text-2xl">
         Feel free to reach out for any collaborations or just say a friendly hello
       </p>
-      <p className="text-gradient xxs:text-xl lg:text-2xl">
+      <p className="text-gradient-azure xxs:text-xl lg:text-2xl">
         <a href="mailto:andrejazz2011@gmail.com">andrejazz2011@gmail.com</a>
       </p>
       <div className="flex flex-row items-center mt-10 justify-center">

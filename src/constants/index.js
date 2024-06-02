@@ -75,7 +75,7 @@ export const imgData = [
            title: "Urban Edge",
            img: img6,
            description:
-             "A skateboard and e-commerce WP shop for hipster enthusiasts",
+             "A skateboard and e-commerce WP shop for hipster enthusiasts.",
            button: "See Web App",
            link: "https://dev-clothyfy.pantheonsite.io/",
            icon: <BsFillArrowRightCircleFill />,
