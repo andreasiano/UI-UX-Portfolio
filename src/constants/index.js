@@ -1,9 +1,9 @@
 import img1 from '../assets/kitsune.png'
 import img2 from '../assets/Gaming Web App.png'
 import img3 from '../assets/ST.png'
-import img4 from '../assets/CRIF.png'
+import img4 from '../assets/Nexi.png'
 import img5 from '../assets/Travel vibes.png'
-import img6 from '../assets/Landing Page.png'
+import img6 from '../assets/Museum App.png'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 export const navLinks = [
@@ -41,12 +41,12 @@ export const imgData = [
          },
          {
            id: 3,
-           title: "CRIF Portal",
+           title: "Nexi Digital",
            img: img4,
            description:
-             "CRIF is a global company specialized on microtransactions, I helped them to design their web portal...",
+             "Working on a design renovation of their old web portal: https://xpaydashboard.nexigroup.com/login",
            button: "See Web Portal",
-           link: "https://crif.com/",
+           link: "https://ngwecomm-dev.nexi.it/prelogin",
            icon: <BsFillArrowRightCircleFill />,
          },
          {
@@ -72,12 +72,12 @@ export const imgData = [
          },
          {
            id: 6,
-           title: "Urban Edge",
+           title: "Event App",
            img: img6,
            description:
-             "A skateboard and e-commerce WP shop for hipster enthusiasts.",
-           button: "See WordPress Website",
-           link: "https://dev-clothyfy.pantheonsite.io/",
+             "An event app for museums, events and exhibitions.",
+           button: "See Prototype",
+           link: "https://www.figma.com/design/uOMFEBU5ZnM3bp2d6ydc0v/ArtQuest?node-id=102-29&t=joyK4w6rk2APbJjf-1",
            icon: <BsFillArrowRightCircleFill />,
          },
        ];
