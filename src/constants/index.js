@@ -1,9 +1,9 @@
 import img1 from '../assets/kitsune.png'
-import img2 from '../assets/Gaming Web App.png'
+import img2 from '../assets/Museum App.png'
 import img3 from '../assets/ST.png'
 import img4 from '../assets/Nexi.png'
 import img5 from '../assets/Travel vibes.png'
-import img6 from '../assets/Museum App.png'
+import img6 from '../assets/BaileyWorld.png'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 export const navLinks = [
@@ -30,10 +30,10 @@ export const imgData = [
          },
          {
            id: 2,
-           title: "Gaming Web App Concept",
+           title: "Museum App",
            img: img2,
            description:
-             "A UI Web App concept for gamers and streamers.",
+             "A mobile app prototype for museums, exhibitions and galleries.",
            button: "See Prototype",
            link:
              "https://figma.com/design/eyj3oXiTlGgjXyoN5vP95w/Gaming-Desktop-App?t=oQFcA1ddaP9PTlmF-0",
@@ -72,12 +72,12 @@ export const imgData = [
          },
          {
            id: 6,
-           title: "Event App",
+           title: "Bailey World",
            img: img6,
            description:
-             "An event app for museums, events and exhibitions.",
+             "This is a work in progress for a scifi book store. I am working on a redesign of their old portal.",
            button: "See Prototype",
-           link: "https://www.figma.com/design/uOMFEBU5ZnM3bp2d6ydc0v/ArtQuest?node-id=102-29&t=joyK4w6rk2APbJjf-1",
+           link: "https://www.figma.com/design/RULXouYpq1RgmvIODIgZe2/BaileyWorld?node-id=1-2&t=SHosvj5AaeBgN5Ap-1",
            icon: <BsFillArrowRightCircleFill />,
          },
        ];
