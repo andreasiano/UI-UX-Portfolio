@@ -1,5 +1,5 @@
 import img1 from '../assets/kitsune.png'
-import img2 from '../assets/Museum App.png'
+import img2 from '../assets/elty.png'
 import img3 from '../assets/ST.png'
 import img4 from '../assets/Nexi.png'
 import img5 from '../assets/Travel vibes.png'
@@ -30,13 +30,13 @@ export const imgData = [
          },
          {
            id: 2,
-           title: "Museum App",
+           title: "Elty Dashboard",
            img: img2,
            description:
-             "A mobile app prototype for museums, exhibitions and galleries.",
+             "This is a dashboard I prototyped for Elty, a platform that helps general practicioner planning their agenda.",
            button: "See Prototype",
            link:
-             "https://figma.com/design/eyj3oXiTlGgjXyoN5vP95w/Gaming-Desktop-App?t=oQFcA1ddaP9PTlmF-0",
+             "https://www.figma.com/design/yBFRg58Wn3xrZIvqIKzQUS/Elty-Dashboard?node-id=0-1&p=f&t=q5BwUwKoNDWcF10d-0",
            icon: <BsFillArrowRightCircleFill />,
          },
          {
