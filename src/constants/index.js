@@ -2,7 +2,7 @@ import img1 from '../assets/kitsune.png'
 import img2 from '../assets/elty.png'
 import img3 from '../assets/ST.png'
 import img4 from '../assets/Nexi.png'
-import img5 from '../assets/Travel vibes.png'
+import img5 from '../assets/Welkin CMP.png'
 import img6 from '../assets/BaileyWorld.png'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 
@@ -62,12 +62,12 @@ export const imgData = [
          },
          {
            id: 5,
-           title: "Travel Vibes",
+           title: "Welkin CMP",
            img: img5,
            description:
-             "A Travel Mobile App prototype to ease traveler's pains.",
+             "A Platform created to manage different cloud connections with a prototype and its design system",
            button: "See Prototype",
-           link: "https://www.figma.com/design/bohhBEUAqAzkZO6bV7XcxC/Travel-Mobile-App?t=oQFcA1ddaP9PTlmF-0",
+           link: "https://www.figma.com/design/eBYM5OwjGNaexDWKBcsAFx/WelkinReply?node-id=10-810&t=JipeYG7mHYcuXUWn-1",
            icon: <BsFillArrowRightCircleFill />,
          },
          {
