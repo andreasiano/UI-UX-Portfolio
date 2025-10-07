@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../style";
-import portrait from "../assets/elsa-noblet-5KD5PmZEfcg-unsplash.jpg";
-import circleImage from "../assets/myImage.webp"; // Assuming you have a circular image to use
+import portrait from "../assets/CircularPattern.jpg";
 import { motion } from "framer-motion";
 import { FaUncharted } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
@@ -29,7 +28,7 @@ const Hero = () => {
         <p
           className={`${styles.paragraph} font-light opacity-50 text-white max-w-[480px] sm:text-2xl xxs:text-xl lg:text-[15px] mt-5`}
         >
-          With three years of hands-on experience as a UI UX Designer, my passion lies in crafting intuitive user interfaces and seamless user experiences that elevate applications to new heights of user-friendliness. I thrive on the dynamic interplay between UI/UX design principles and cutting-edge development techniques, driven by a relentless pursuit of innovation and excellence.
+       For the past five years, I’ve been designing user experiences that are clean, intuitive, and engaging. I also specialize in building dynamic websites with WordPress and Elementor Pro, allowing me to bring design concepts to life with precision and flexibility. I love creating digital experiences that are not only beautiful but also effortless to use.
         </p>
         <div className="lg:flex mt-5">
           <div className="flex xxs:mb-5 items-center">
@@ -45,7 +44,7 @@ const Hero = () => {
               <FaCode className="text-white my-1.5 mx-1.5 text-xl" />
             </div>
             <p className="text-white text-sm">
-              Coding enthusiast (ReactJs, NextJs, Python)
+              Coding enthusiast (ReactJs, NextJs, Angular)
             </p>
           </div>
         </div>

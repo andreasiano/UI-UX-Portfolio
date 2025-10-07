@@ -28,7 +28,7 @@ export default function ContactMe() {
         Feel free to reach out for any collaborations or just say a friendly hello
       </p>
       <p className="text-gradient-azure xxs:text-xl lg:text-2xl">
-        <a href="mailto:andrejazz2011@gmail.com">andrejazz2011@gmail.com</a>
+        <a href="mailto:andreadevpensieri@gmail.com">andreadevpensieri@gmail.com</a>
       </p>
       <div className="flex flex-row items-center mt-10 justify-center">
         <a href="https://www.facebook.com/andrew.onais.9">
