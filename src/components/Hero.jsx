@@ -16,18 +16,7 @@ const Hero = () => {
       className={`flex md:flex-row xxs:gap-8 lg:gap-20 flex-col ${styles.paddingY}`}
     >
       <div className={`lg:w-2/3 ${styles.flexStart} flex-col`}>
-        <div className="flex">
-          <div className="w-10 mb-5 h-10 flex border-2 border-white rounded-full overflow-hidden mr-3">
-            <img
-              src={circleImage}
-              alt="Circle"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <p className="text-white font-poppins opacity-50 font-extralight mt-2">
-            Hey, I am Andrea!
-          </p>
-        </div>
+        
         <div className="flex flex-row justify-between items-center w-full">
           <div className="flex items-center">
             <h1 className="text-white text-[50px] leading-[50px] lg:leading-[48px] font-regular sm:w-[400px] lg:w-[400px]">
