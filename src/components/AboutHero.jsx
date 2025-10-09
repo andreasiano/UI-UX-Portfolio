@@ -43,7 +43,7 @@ const AboutHero = () => {
           My journey in digital design has taken me from Ireland to Italy,
           collaborating with ecommerce brands, ST Microelectronics, and Nexi
           Digital. I specialize in crafting seamless user experiences through{" "}
-          <strong>user interviews</strong>,<strong>journey maps</strong>,{" "}
+          <strong>user interviews</strong>, <strong>journey maps</strong>,{" "}
           <strong>conversion rate optimization (CRO) surveys</strong>, and
           detailed <strong>case studies</strong> that inform product strategy.
         </p>
