@@ -13,9 +13,7 @@ const AboutHero = () => {
       className={`flex md:flex-row xxs:gap-8 lg:gap-20 flex-col ${styles.paddingY}`}
     >
       {/* Image Section */}
-      <div
-        className={`flex-2 flex ${styles.flexCenter} md:my-20 xxs:mb-10 relative`}
-      >
+      <div className={`flex-2 flex ${styles.flexCenter} md:my-20  relative`}>
         <div className="relative overflow-hidden rounded-xl w-full lg:w-auto">
           <img
             src={portrait}
@@ -34,8 +32,8 @@ const AboutHero = () => {
             <h1 className="text-slate-700 text-[50px] leading-[50px] lg:leading-[48px] font-regular sm:w-[400px] lg:w-[400px]">
               From <span className="text-gradient-teal">Ireland</span> to{" "}
               <span className="text-gradient-orange">Italy</span> — My Journey
-              in <span className="text-gradient-teal">UI/UX Design</span> & 3D
-              Art
+              in <span className="text-gradient-teal">UI/UX Design</span> & User
+              Surveys
             </h1>
           </div>
         </div>
@@ -43,28 +41,33 @@ const AboutHero = () => {
         <p
           className={`${styles.paragraph} font-light opacity-50 text-slate-700 max-w-[480px] sm:text-2xl xxs:text-xl lg:text-[15px] mt-5`}
         >
-          My career
-          has taken me from Ireland to Italy, working with ecommerce platforms,
-          ST Microelectronics, and Nexi Digital. I’ve worked on projects
-          spanning WordPress, Elementor Pro, Wix, CSS, and React, blending
-          design with development to deliver seamless results.
-          <br className="mb-20" />
-          <br />
-          On the UI/UX side, my work involves conducting{" "}
-          <strong>user interviews</strong>, creating <strong>journey maps</strong>, running{" "}
+          My journey in digital design has taken me from Ireland to Italy,
+          collaborating with ecommerce brands, ST Microelectronics, and Nexi
+          Digital. I specialize in crafting seamless user experiences through{" "}
+          <strong>user interviews</strong>,<strong>journey maps</strong>,{" "}
           <strong>conversion rate optimization (CRO) surveys</strong>, and
-          producing <strong>case studies</strong> that guide product strategy.
-          My goal is to ensure that every design decision is backed by research
-          and real user insights, creating experiences that are intuitive and
-          engaging. In addition, if you are interested I recently dived deep into 3d art, You can explore some of my works on{" "}
+          detailed <strong>case studies</strong> that inform product strategy.
+        </p>
+
+        <p className="mt-4 font-light opacity-50 text-slate-700 max-w-[480px] sm:text-2xl xxs:text-xl lg:text-[15px]">
+          On the technical side, I bring designs to life with WordPress,
+          Elementor Pro, Wix, CSS, and React, ensuring that the products I
+          create are not only visually compelling but fully functional.
+        </p>
+
+        <p className="mt-4 font-light opacity-50 text-slate-700 max-w-[480px] sm:text-2xl xxs:text-xl lg:text-[15px]">
+          My passion for visual storytelling extends to 3D art and interior
+          design. I’ve completed a professional course in 3D modeling with Maya,
+          and you can explore some of my work on{" "}
           <a
-            href="https://www.artstation.com/toadmaster90"
+            href="https://www.artstation.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline text-gradient-pink hover:text-teal-900 transition"
+            className="underline text-gradient-pink hover:text-pink-400 transition"
           >
             my ArtStation profile
-          </a>.
+          </a>
+          .
         </p>
 
         <div className="mt-6 mb-6">
@@ -82,4 +85,3 @@ const AboutHero = () => {
 };
 
 export default AboutHero;
-
