@@ -31,7 +31,7 @@ const AboutHero = () => {
           <div className="flex items-center">
             <h1 className="text-slate-700 text-[50px] leading-[50px] lg:leading-[48px] font-regular sm:w-[400px] lg:w-[400px]">
               From <span className="text-gradient-teal">Ireland</span> to{" "}
-              <span className="text-gradient-orange">Italy</span> — My Journey
+              <span className="text-gradient-orange">Ital</span> — My Journey
               wit <span className="text-gradient-teal">UI/UX Design</span>
             </h1>
           </div>
