@@ -1,10 +1,11 @@
 import styles from "./style";
-import {
-  Navbar,
-  Hero,
-  ImageCard,
-  ContactMe,
-} from "./components";
+import { Navbar } from "./components";
+import { Routes, Route } from "react-router-dom";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import Elty from "./pages/Elty";
+import HiddenShrine from "./pages/HiddenShrine";
+import CMP from "./pages/CMP";
 
 const App = () => (
   <div className="bg-primary overflow-hidden">
@@ -13,26 +14,16 @@ const App = () => (
         <Navbar />
       </div>
     </div>
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero />
-      </div>
-    </div>
-    <div
-      className={`bg-white ${styles.paddingY} ${styles.paddingX} ${styles.flexCenter}`}
-    >
-      <div className={`${styles.boxWidth}`}>
-        <div className="lg:flex gap-10 lg:mb-10">
-          <ImageCard />
-        </div>
-      </div>
-    </div>
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <ContactMe />
-      </div>
-    </div>
+
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/elty" element={<Elty />} />
+      <Route path="/hiddenshrine" element={<HiddenShrine />} />
+      <Route path="/cmp" element={<CMP />} />
+    </Routes>
   </div>
 );
 
 export default App;
+

@@ -27,14 +27,28 @@ html,
 }
 
 .text-gradient-azure {
-  background: -webkit-linear-gradient(#FAFFFE, #87D8CA);
+  background: -webkit-linear-gradient(#FAFFFE, #db80a1);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: underline;
 }
 
-.text-gradient-pink {
-  background: -webkit-linear-gradient(#DA82DC, #FAFFFE);
+.text-gradient-orange {
+  background: -webkit-linear-gradient(#FAFFFE, #6043e2);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: underline;
+}
+
+.text-gradient-yellow {
+  background: -webkit-linear-gradient(#FAFFFE, #b1b11d);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: underline;
+}
+
+.text-gradient-teal {
+  background: -webkit-linear-gradient(#ffffff, #089b7e);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: underline;

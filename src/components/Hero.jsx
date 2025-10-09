@@ -20,7 +20,7 @@ const Hero = () => {
           <div className="flex items-center">
             <h1 className="text-white text-[50px] leading-[50px] lg:leading-[48px] font-regular sm:w-[400px] lg:w-[400px]">
               I<span className="text-gradient-azure"> Build</span> and{" "}
-              <span className="text-gradient-pink">Design</span> Digital
+              <span className="text-gradient-yellow">Design</span> Digital
               Products that people love!
             </h1>
           </div>

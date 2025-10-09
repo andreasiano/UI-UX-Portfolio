@@ -1,33 +1,36 @@
 import { imgData } from "../constants";
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const animationVariants = {
   initial: {
     opacity: 0,
-    y: 100
+    y: 100,
   },
   animate: (index) => ({
     opacity: 1,
     y: 0,
     transition: {
-      delay: 0.09 * index
-    }
+      delay: 0.09 * index,
+    },
   }),
-}
+};
 
 export default function ImageCards() {
+  const isInternalLink = (url) => url.startsWith("/");
+
   return (
     <div id="works" className="grid md:grid-cols-2 gap-10">
-      {imgData.map((card, index) => (
-        <a key={card.id} href={card.link}>
+      {imgData.map((card, index) => {
+        const CardContent = (
           <motion.div
             className="shadow-xl font-dmdisplay border-opacity-25 relative overflow-hidden border-4 border-gray-700 rounded-xl group"
             key={index}
             variants={animationVariants}
-            initial='initial'
-            whileInView='animate'
+            initial="initial"
+            whileInView="animate"
             viewport={{
-              once: true
+              once: true,
             }}
             custom={index}
           >
@@ -48,14 +51,40 @@ export default function ImageCards() {
                 className="inline-flex font-extrabold md:text-[20px] xs:text-[25px] sm:text-3xl items-center lg:text-xl"
               >
                 {card.button}
-                <a href={card.link} className="ml-3">
-                  {card.icon}
-                </a>
+                {isInternalLink(card.link) ? (
+                  <Link to={card.link} className="ml-3">
+                    {card.icon}
+                  </Link>
+                ) : (
+                  <a
+                    href={card.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-3"
+                  >
+                    {card.icon}
+                  </a>
+                )}
               </button>
             </div>
           </motion.div>
-        </a>
-      ))}
+        );
+
+        return isInternalLink(card.link) ? (
+          <Link key={card.id} to={card.link}>
+            {CardContent}
+          </Link>
+        ) : (
+          <a
+            key={card.id}
+            href={card.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {CardContent}
+          </a>
+        );
+      })}
     </div>
   );
 }
