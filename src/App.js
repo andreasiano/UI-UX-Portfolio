@@ -17,7 +17,7 @@ const App = () => (
     </div>
 
     {/* ✅ This ensures scroll resets when changing routes */}
-    <ScrollToTop>
+    <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -25,7 +25,7 @@ const App = () => (
         <Route path="/hiddenshrine" element={<HiddenShrine />} />
         <Route path="/cmp" element={<CMP />} />
       </Routes>
-    </ScrollToTop>
+    
   </div>
 );
 
