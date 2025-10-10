@@ -40,7 +40,7 @@ const AboutHero = () => {
         <p
           className={`${styles.paragraph} font-light opacity-50 text-slate-700 max-w-[480px] sm:text-2xl xxs:text-xl lg:text-[15px] mt-5`}
         >
-          My journey in digital design has taken me from Ireland to Italy,
+          My journey in digital design has taken me from Italy to Ireland,
           collaborating with ecommerce brands, ST Microelectronics, and Nexi
           Digital. I specialize in crafting seamless user experiences through{" "}
           <strong>user interviews</strong>, <strong>journey maps</strong>,{" "}
