@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
         </div>
         <p
-          className={`${styles.paragraph} font-light opacity-50 text-white max-w-[480px] sm:text-2xl xxs:text-xl lg:text-[15px] mt-5`}
+          className={`${styles.paragraph} font-light font-poppins opacity-50 text-white max-w-[480px] sm:text-2xl xxs:text-xl lg:text-[15px] mt-5`}
         >
        For the past five years, I’ve been designing user experiences that are clean, intuitive, and engaging. I also specialize in building dynamic websites with WordPress and Elementor Pro, allowing me to bring design concepts to life with precision and flexibility. I love creating digital experiences that are not only beautiful but also effortless to use.
         </p>

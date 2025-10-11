@@ -38,7 +38,7 @@ const AboutHero = () => {
         </div>
 
         <p
-          className={`${styles.paragraph} font-light opacity-50 text-slate-700 max-w-[480px] sm:text-2xl xxs:text-xl lg:text-[15px] mt-5`}
+          className={`${styles.paragraph} font-light font-poppins opacity-50 text-slate-700 max-w-[480px] sm:text-2xl xxs:text-xl lg:text-[15px] mt-5`}
         >
           My journey in digital design has taken me from Italy to Ireland,
           collaborating with ecommerce brands, ST Microelectronics, and Nexi
@@ -48,21 +48,21 @@ const AboutHero = () => {
           detailed <strong>case studies</strong> that inform product strategy.
         </p>
 
-        <p className="mt-4 font-light opacity-50 text-slate-700 max-w-[480px] sm:text-2xl xxs:text-xl lg:text-[15px]">
+        <p className="mt-4 font-light opacity-50 font-poppins text-slate-700 max-w-[480px] sm:text-2xl xxs:text-xl lg:text-[15px]">
           On the technical side, I bring designs to life with WordPress,
           Elementor Pro, Wix, CSS, and React, ensuring that the products I
           create are not only visually compelling but fully functional.
         </p>
 
-        <p className="mt-4 font-light opacity-50 text-slate-700 max-w-[480px] sm:text-2xl xxs:text-xl lg:text-[15px]">
+        <p className="mt-4 font-light opacity-50 font-poppins text-slate-700 max-w-[480px] sm:text-2xl xxs:text-xl lg:text-[15px]">
           My passion for visual storytelling extends to 3D art and interior
           design. I’ve completed a professional course in 3D modeling with Maya,
           and you can explore some of my work on{" "}
           <a
-            href="https://www.artstation.com/"
+            href="https://www.artstation.com/toadmaster90"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline text-gradient-pink hover:text-pink-400 transition"
+            className="underline text-gradient-pink hover:text-teal-700 transition"
           >
             my ArtStation profile
           </a>
