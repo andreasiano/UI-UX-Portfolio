@@ -7,6 +7,9 @@ import shrineImage4 from "../assets/HiddenShrineImg4.png";
 import shrineImage5 from "../assets/HiddenShrineImg5.png";
 import shrineImage6 from "../assets/HiddenShrineImg6.png"; // new image for the right side
 import shrineImage7 from "../assets/HiddenShrineImg7.png"; // new image for the right side
+import shrineImage8 from "../assets/HiddenShrineImg8.png"; // new image for the right side
+import shrineImage9 from "../assets/HiddenShrineImg9.png";
+import shrineImage10 from "../assets/HiddenShrineImg10.png"; // new image for the right side
 
 const images = [
   { src: shrineImage1, alt: "The Hidden Shrine project" },
@@ -109,7 +112,7 @@ const HiddenShrineComponent = () => {
           <h2 className="text-sky-200 lg:text-5xl font-thin text-3xl md:text-4xl mb-4">
             CORE RESEARCH
           </h2>
-          <p className="text-gray-400 font-poppins text-base md:text-lg max-w-3xl mx-auto">
+          <p className="text-gray-400 font-poppins mb-10 lg:mb-10 text-base md:text-lg max-w-3xl mx-auto">
             To ensure our research captures a broad spectrum of perspectives,
             we've implemented a meticulous participant recruitment process.
             Utilizing a screening survey, we've identified individuals whose
@@ -140,14 +143,22 @@ const HiddenShrineComponent = () => {
         </div>
 
         {/* ✅ New section: Text on left, image on right */}
-        <div className="w-full max-w-5xl flex flex-col md:flex-row items-center justify-between gap-8 mt-12">
+        <div className="w-full max-w-5xl flex flex-col md:flex-row items-center justify-between gap-8 mt-12 mb-20 lg:mb-20">
           {/* Left: Heading & Paragraph */}
           <div className="md:w-1/2 text-left">
             <h3 className="text-2xl uppercase text-sky-200 md:text-3xl font-bold mb-4">
               Harnessing User Understanding for The Hidden Shrine
             </h3>
             <p className="text-gray-400 font-poppins text-base md:text-lg">
-              In the journey of designing The Hidden Shrine, crafting personas and empathy maps holds paramount importance. These tools allow us to delve deep into the minds and hearts of our potential users, understanding their desires, frustrations, and aspirations when it comes to cultural travel. By weaving together personas and empathy maps, we illuminate pathways to create a platform that not only meets but exceeds the expectations of our diverse audience, ensuring each user's journey is rich, meaningful, and unforgettable.
+              In the journey of designing The Hidden Shrine, crafting personas
+              and empathy maps holds paramount importance. These tools allow us
+              to delve deep into the minds and hearts of our potential users,
+              understanding their desires, frustrations, and aspirations when it
+              comes to cultural travel. By weaving together personas and empathy
+              maps, we illuminate pathways to create a platform that not only
+              meets but exceeds the expectations of our diverse audience,
+              ensuring each user's journey is rich, meaningful, and
+              unforgettable.
             </p>
           </div>
 
@@ -160,10 +171,90 @@ const HiddenShrineComponent = () => {
             />
           </div>
         </div>
+        <p className="font-poppins decoration-gray-300 text-gray-500 decoration-opacity-50 underline">
+          Second Part
+        </p>
+
+        <h2 className="text-sky-200 lg:text-6xl text-5xl md:text-3xl mt-4 mb-8 leading-tight">
+          IDEATE
+        </h2>
+
+        <div className="flex flex-col md:flex-row items-start md:items-center gap-8 max-w-5xl text-left">
+          <h3 className="text-xl md:text-3xl leading-tight uppercase font-bold text-green-900 md:w-1/3">
+            Imagination Unleashed: Crafting the Future
+          </h3>
+          <p className="text-gray-400 font-poppins text-base md:text-lg md:w-2/3">
+            Step into the realm of boundless creativity as we embark on the
+            ideation phase. Through a fusion of diverse perspectives and
+            innovative thinking, we sculpt visions that will shape the future of
+            cultural exploration. Join us on this exhilarating journey where
+            imagination knows no bounds, and every idea is a stepping stone
+            towards realizing our digital sanctuary's full potential.
+          </p>
+        </div>
+
+        <div className="text-center mt-10 lg:mt-20">
+          <h2 className="text-sky-200 lg:text-5xl font-thin text-3xl md:text-4xl mb-4">
+            EXPLORING DIFFERENT PERSPECTIVES
+          </h2>
+          <p className="text-gray-400 mb-10 lg:mb-10 font-poppins text-base md:text-lg max-w-3xl mx-auto">
+            In the ideation phase, we embarked on a journey of exploration and
+            creativity, seeking to uncover innovative solutions and shape the
+            future of The Hidden Shrinel. Through a variety of brainstorming
+            sessions, collaborative workshops, and creative exercises, we
+            explored different perspectives, challenged assumptions, and
+            generated a multitude of ideas to address the needs and desires of
+            our audience.
+          </p>
+        </div>
+
+        {/* Two images below */}
+        <div className="w-full max-w-5xl mt-4 mb-12 flex flex-col items-center">
+          <img
+            src={shrineImage8}
+            alt="Hidden Shrine Research Visualization"
+            className="w-full object-cover"
+          />
+        </div>
+        <p className="font-poppins decoration-gray-300 text-gray-500 decoration-opacity-50 underline">
+          Third Part
+        </p>
+
+        <h2 className="text-sky-200 lg:text-6xl text-5xl md:text-3xl mt-4 mb-8 leading-tight">
+          DEFINE
+        </h2>
+        <p className="text-gray-400 font-poppins text-base md:text-lg max-w-3xl mx-auto">
+            In the Define phase, we created a Value Proposition Canvas to precisely define the value that Kitsune's Veil offers to its target audience. This tool allows us to clearly articulate the benefits and features of our platform and understand how they address the needs and desires of our users. By filling out the canvas, we identify the key elements of our value proposition, including the unique features that set us apart from competitors, the specific customer segments we are targeting, and the pain points and gains that our users experience. This process enables us to align our product development efforts with the needs of our audience and ensures that Kitsune's Veil delivers compelling value that resonates with our users, ultimately driving engagement and satisfaction with our platform.
+          </p>
+
+        <div className="text-center mt-10 lg:mt-20">
+          <h2 className="text-green-900 lg:text-5xl font-thin uppercase text-3xl md:text-4xl mb-4">
+            Clara's Frustration with Inaccessible Japanese Folklore Resources
+          </h2>
+          <p className="text-gray-400 mb-10 lg:mb-10 font-poppins text-base md:text-lg max-w-3xl mx-auto">
+            We started by crafting a problem statement based on insights gathered from Clara's perspective and experiences. Clara expressed frustration with the lack of reliable information on Japanese folklore and cultural experiences, highlighting a need for a comprehensive platform that offers accurate and engaging content. 
+          </p>
+        </div>
+
+        {/* Two images below */}
+        <div className="w-full max-w-5xl mt-4 mb-12 flex flex-col items-center">
+          <img
+            src={shrineImage9}
+            alt="Hidden Shrine Research Visualization"
+            className="w-full object-cover"
+          />
+        </div>
+        <p className="text-gray-400 mb-10 lg:mb-10 font-poppins text-base md:text-lg max-w-3xl mx-auto">Using the Value Proposition Canvas by Strategizer has been instrumental in clarifying and refining the value proposition of The Hidden Shrine. By systematically analyzing the customer segments, their pain points, and the gains they seek, we were able to gain deep insights into the needs and desires of our target audience, such as enthusiasts like Clara interested in Japanese folklore. This allowed us to tailor our platform's features and content to effectively address these needs, ensuring that Kitsune's Veil offers compelling value and resonates with its intended users. Additionally, the canvas facilitated collaboration and alignment within our team, enabling us to focus our efforts on developing a platform that truly meets the expectations of our audience.</p>
+        <div className="w-full max-w-5xl mt-4 mb-12 flex flex-col items-center">
+          <img
+            src={shrineImage10}
+            alt="Hidden Shrine Research Visualization"
+            className="w-full object-cover"
+          />
+        </div>
       </div>
     </motion.div>
   );
 };
 
 export default HiddenShrineComponent;
-
