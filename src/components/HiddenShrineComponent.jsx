@@ -60,7 +60,7 @@ const HiddenShrineComponent = () => {
 
       {/* Box with image overlap */}
       <div className="w-full relative max-w-5xl">
-        <div className="bg-green-50 p-8 md:p-12 border-opacity-[50%] rounded-lg border-[3.5px] border-gray-300">
+        <div className="bg-green-50 p-8 md:p-12 xs:mb-[20px] border-opacity-[50%] rounded-lg border-[3.5px] border-gray-300">
           <p className="text-gray-400 font-poppins lg:mb-[10px] sm:mb-[30px] text-base md:text-lg">
             Within The Hidden Shrine, the interface is meticulously designed to
             cater to the needs of explorers and aficionados navigating through
@@ -69,9 +69,11 @@ const HiddenShrineComponent = () => {
             of Japan's cultural heritage. Here's the structure of the basic
             interface:
           </p>
-          <div className="pt-24 md:pt-32 lg:pt-40"></div>
+           <div className="pt-8 md:pt-1 lg:pt-40"></div>
         </div>
-        <div className="absolute top-[75%] md:top-[50%] lg:top-[50%] left-1/2 -translate-x-1/2 sm:w-[100%] w-[100%] md:w-[90%] lg:w-[95%] shadow-xl rounded-lg overflow-hidden">
+
+        {/* 👇 Only visible on desktop */}
+        <div className="hidden lg:block absolute top-[50%] left-1/2 -translate-x-1/2 w-[95%] shadow-xl rounded-lg overflow-hidden">
           <img
             src={shrineImage4}
             alt="Hidden Shrine UI Prototype Overlap"
@@ -80,10 +82,11 @@ const HiddenShrineComponent = () => {
         </div>
       </div>
 
-      <div className="h-64 md:h-80 lg:h-96 mt-[30px] lg:mb-[50px]"></div>
+      {/* Spacer only needed on desktop too */}
+      <div className="hidden lg:block h-96 mt-[30px] lg:mb-[50px]"></div>
 
       {/* Empathize section */}
-      <div className="text-center">
+      <div className="text-center lg:mt-[100px]md:mt-[100px] xs:mt-0">
         <p className="font-poppins decoration-gray-300 text-gray-500 decoration-opacity-50 underline">
           First Part
         </p>
@@ -224,15 +227,30 @@ const HiddenShrineComponent = () => {
           DEFINE
         </h2>
         <p className="text-gray-400 font-poppins text-base md:text-lg max-w-3xl mx-auto">
-            In the Define phase, we created a Value Proposition Canvas to precisely define the value that Kitsune's Veil offers to its target audience. This tool allows us to clearly articulate the benefits and features of our platform and understand how they address the needs and desires of our users. By filling out the canvas, we identify the key elements of our value proposition, including the unique features that set us apart from competitors, the specific customer segments we are targeting, and the pain points and gains that our users experience. This process enables us to align our product development efforts with the needs of our audience and ensures that Kitsune's Veil delivers compelling value that resonates with our users, ultimately driving engagement and satisfaction with our platform.
-          </p>
+          In the Define phase, we created a Value Proposition Canvas to
+          precisely define the value that Kitsune's Veil offers to its target
+          audience. This tool allows us to clearly articulate the benefits and
+          features of our platform and understand how they address the needs and
+          desires of our users. By filling out the canvas, we identify the key
+          elements of our value proposition, including the unique features that
+          set us apart from competitors, the specific customer segments we are
+          targeting, and the pain points and gains that our users experience.
+          This process enables us to align our product development efforts with
+          the needs of our audience and ensures that Kitsune's Veil delivers
+          compelling value that resonates with our users, ultimately driving
+          engagement and satisfaction with our platform.
+        </p>
 
         <div className="text-center mt-10 lg:mt-20">
           <h2 className="text-green-900 lg:text-5xl font-thin uppercase text-3xl md:text-4xl mb-4">
             Clara's Frustration with Inaccessible Japanese Folklore Resources
           </h2>
           <p className="text-gray-400 mb-10 lg:mb-10 font-poppins text-base md:text-lg max-w-3xl mx-auto">
-            We started by crafting a problem statement based on insights gathered from Clara's perspective and experiences. Clara expressed frustration with the lack of reliable information on Japanese folklore and cultural experiences, highlighting a need for a comprehensive platform that offers accurate and engaging content. 
+            We started by crafting a problem statement based on insights
+            gathered from Clara's perspective and experiences. Clara expressed
+            frustration with the lack of reliable information on Japanese
+            folklore and cultural experiences, highlighting a need for a
+            comprehensive platform that offers accurate and engaging content.
           </p>
         </div>
 
@@ -244,7 +262,20 @@ const HiddenShrineComponent = () => {
             className="w-full object-cover"
           />
         </div>
-        <p className="text-gray-400 mb-10 lg:mb-10 font-poppins text-base md:text-lg max-w-3xl mx-auto">Using the Value Proposition Canvas by Strategizer has been instrumental in clarifying and refining the value proposition of The Hidden Shrine. By systematically analyzing the customer segments, their pain points, and the gains they seek, we were able to gain deep insights into the needs and desires of our target audience, such as enthusiasts like Clara interested in Japanese folklore. This allowed us to tailor our platform's features and content to effectively address these needs, ensuring that Kitsune's Veil offers compelling value and resonates with its intended users. Additionally, the canvas facilitated collaboration and alignment within our team, enabling us to focus our efforts on developing a platform that truly meets the expectations of our audience.</p>
+        <p className="text-gray-400 mb-10 lg:mb-10 font-poppins text-base md:text-lg max-w-3xl mx-auto">
+          Using the Value Proposition Canvas by Strategizer has been
+          instrumental in clarifying and refining the value proposition of The
+          Hidden Shrine. By systematically analyzing the customer segments,
+          their pain points, and the gains they seek, we were able to gain deep
+          insights into the needs and desires of our target audience, such as
+          enthusiasts like Clara interested in Japanese folklore. This allowed
+          us to tailor our platform's features and content to effectively
+          address these needs, ensuring that Kitsune's Veil offers compelling
+          value and resonates with its intended users. Additionally, the canvas
+          facilitated collaboration and alignment within our team, enabling us
+          to focus our efforts on developing a platform that truly meets the
+          expectations of our audience.
+        </p>
         <div className="w-full max-w-5xl mt-4 mb-12 flex flex-col items-center">
           <img
             src={shrineImage10}
