@@ -10,6 +10,11 @@ import shrineImage7 from "../assets/HiddenShrineImg7.png"; // new image for the 
 import shrineImage8 from "../assets/HiddenShrineImg8.png"; // new image for the right side
 import shrineImage9 from "../assets/HiddenShrineImg9.png";
 import shrineImage10 from "../assets/HiddenShrineImg10.png"; // new image for the right side
+import shrineImage11 from "../assets/HiddenShrineImg11.png"; // new image for the right side
+import shrineImage12 from "../assets/HiddenShrineImg12.png"; // new image for the right side
+import shrineImage13 from "../assets/HiddenShrineImg13.png"; // new image for the right side
+import shrineImage14 from "../assets/HiddenShrineImg14.png"; // new image for the right side
+import shrineImage15 from "../assets/HiddenShrineImg15.png"; // new image for the right side
 
 const images = [
   { src: shrineImage1, alt: "The Hidden Shrine project" },
@@ -69,7 +74,7 @@ const HiddenShrineComponent = () => {
             of Japan's cultural heritage. Here's the structure of the basic
             interface:
           </p>
-           <div className="pt-8 md:pt-1 lg:pt-40"></div>
+          <div className="pt-8 md:pt-1 lg:pt-40"></div>
         </div>
 
         {/* 👇 Only visible on desktop */}
@@ -86,7 +91,7 @@ const HiddenShrineComponent = () => {
       <div className="hidden lg:block h-96 mt-[30px] lg:mb-[50px]"></div>
 
       {/* Empathize section */}
-      <div className="text-center lg:mt-[100px]md:mt-[100px] xs:mt-0">
+      <div className="text-center lg:mt-5 md:mt-5 mt-4">
         <p className="font-poppins decoration-gray-300 text-gray-500 decoration-opacity-50 underline">
           First Part
         </p>
@@ -270,11 +275,11 @@ const HiddenShrineComponent = () => {
           insights into the needs and desires of our target audience, such as
           enthusiasts like Clara interested in Japanese folklore. This allowed
           us to tailor our platform's features and content to effectively
-          address these needs, ensuring that Kitsune's Veil offers compelling
-          value and resonates with its intended users. Additionally, the canvas
-          facilitated collaboration and alignment within our team, enabling us
-          to focus our efforts on developing a platform that truly meets the
-          expectations of our audience.
+          address these needs, ensuring that The Hidden Shrine's offers
+          compelling value and resonates with its intended users. Additionally,
+          the canvas facilitated collaboration and alignment within our team,
+          enabling us to focus our efforts on developing a platform that truly
+          meets the expectations of our audience.
         </p>
         <div className="w-full max-w-5xl mt-4 mb-12 flex flex-col items-center">
           <img
@@ -282,6 +287,246 @@ const HiddenShrineComponent = () => {
             alt="Hidden Shrine Research Visualization"
             className="w-full object-cover"
           />
+        </div>
+        <p className="font-poppins decoration-gray-300 text-gray-500 decoration-opacity-50 underline">
+          Fourth Part
+        </p>
+        <h2 className="text-sky-200 lg:text-6xl text-5xl md:text-3xl mt-4 mb-8 leading-tight">
+          PROTOTYPE
+        </h2>
+        <p className="text-gray-400 font-poppins text-base mb-10 md:text-lg max-w-3xl mx-auto">
+          During the prototyping phase, we have focused on translating our
+          design concepts and ideas into tangible representations that users can
+          interact with and provide feedback on. This involved creating
+          low-fidelity wireframes to outline the basic structure and layout of
+          the application, allowing us to iterate rapidly and refine our design
+          concepts. Additionally, we developed a workflow for the application to
+          map out the user's journey and identify key touchpoints and
+          interactions. By prototyping our designs, we were able to test and
+          validate our assumptions, gather valuable insights from users, and
+          make informed decisions to enhance the user experience.
+        </p>
+        <div className="w-full relative max-w-5xl">
+          <div className="bg-green-900 p-8 md:p-12 xs:mb-[20px] border-opacity-[50%] rounded-lg border-[3.5px] border-gray-300">
+            <h2 className="text-green-50 text-left lg:text-5xl font-thin uppercase text-3xl md:text-4xl mb-4">
+              The Value of Low-Fidelity Wireframes in Prototyping
+            </h2>
+            <p className="text-gray-200 text-left font-poppins lg:mb-[10px] sm:mb-[30px] text-base md:text-lg">
+              In the prototype phase of developing The Hidden Shrine, creating
+              low-fidelity wireframes has been crucial for several reasons.
+              Firstly, low-fi wireframes serve as a blueprint for the
+              application's user interface, providing a visual representation of
+              the layout, structure, and functionality of each screen. This
+              allows our team to quickly iterate and refine the design before
+              investing time and resources into higher-fidelity prototypes.
+              We’ll consider the itinerary view in this case and its workflow!
+            </p>
+          </div>
+          <div className="w-full max-w-5xl mt-4 mb-12 flex flex-col items-center">
+            <img
+              src={shrineImage11}
+              alt="Hidden Shrine Research Visualization"
+              className="w-full object-cover"
+            />
+          </div>
+          <div className="w-full font-poppins max-w-5xl mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Column 1 */}
+            <div className="text-left text-gray-400">
+              <p>
+                <span className="font-bold mb-10 text-xl text-slate-600">
+                  1.
+                </span>{" "}
+                When the user clicks on the "Explore Itinerary" button, they are
+                seamlessly directed to the itinerary section of Kitsune's Veil.
+                This action initiates a smooth transition within the
+                application, instantly transporting the user to a curated
+                collection of captivating travel experiences. In the itinerary
+                section, users can delve into a diverse range of destinations,
+                each offering unique insights into Japanese folklore, myths,
+                festivals, and cultural traditions.
+              </p>
+            </div>
+
+            {/* Column 2 */}
+            <div className="text-left mb-10 text-gray-400">
+              <p>
+                <span className="font-bold text-xl mb-10 text-slate-600">
+                  2.
+                </span>{" "}
+                In this view, users can effortlessly browse and select from a
+                variety of featured itineraries, each offering a unique
+                exploration of Japan's rich cultural tapestry. Alongside
+                captivating descriptions and stunning imagery, users can easily
+                access essential details such as the itinerary's price, region,
+                and duration. This comprehensive information empowers users to
+                make informed decisions and choose the itinerary that best suits
+                their interests, budget, and timeframe.
+              </p>
+            </div>
+          </div>
+          <div className="w-full max-w-5xl mt-4 mb-12 flex flex-col items-center">
+            <img
+              src={shrineImage12}
+              alt="Hidden Shrine Research Visualization"
+              className="w-full object-cover"
+            />
+          </div>
+          <div className="w-full mb-10 font-poppins max-w-5xl mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Column 1 */}
+            <div className="text-left text-gray-400">
+              <p>
+                <span className="font-bold text-xl text-slate-600">3.</span> In
+                the alternative view, users have the flexibility to refine their
+                exploration by applying various filters tailored to their
+                specific interests. These filters encompass a wide spectrum of
+                thematic experiences, allowing users to customize their journey
+                according to their preferences. Options include sacred hikes,
+                which lead adventurers on spiritual pilgrimages to revered
+                shrines and temples nestled amidst breathtaking natural
+                landscapes.
+              </p>
+            </div>
+
+            {/* Column 2 */}
+            <div className="text-left text-gray-400">
+              <p>
+                <span className="font-bold text-xl text-slate-600">4.</span> In
+                this view, users can effortlessly browse and select from a
+                variety of featured itineraries, each offering a unique
+                exploration of Japan's rich cultural tapestry. Alongside
+                captivating descriptions and stunning imagery, users can easily
+                access essential details such as the itinerary's price, region,
+                and duration. This comprehensive information empowers users to
+                make informed decisions and choose the itinerary that best suits
+                their interests, budget, and timeframe
+              </p>
+            </div>
+          </div>
+          <div className="w-full max-w-5xl mt-4 mb-12 flex flex-col items-center">
+            <img
+              src={shrineImage12}
+              alt="Hidden Shrine Research Visualization"
+              className="w-full object-cover"
+            />
+          </div>
+          <div className="w-full mb-10 font-poppins max-w-5xl mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Column 1 */}
+            <div className="text-left text-gray-400">
+              <p>
+                <span className="font-bold text-xl mb-20 text-slate-600">
+                  5.
+                </span>{" "}
+                In the detailed view showcased within the rectangular display,
+                users will encounter a wealth of information pertaining to the
+                selected hike, enhancing their understanding and enabling
+                informed decision-making. Within this comprehensive display,
+                users can expect to find essential details such as the trip
+                level, providing insights into the hike's difficulty and
+                suitability for various skill levels.
+              </p>
+            </div>
+
+            {/* Column 2 */}
+            <div className="text-left text-gray-400">
+              <p>
+                <span className="font-bold text-xl mb-20 text-slate-600">
+                  6.
+                </span>{" "}
+                In the alternate description, users will encounter a
+                comprehensive breakdown of the amenities and offerings available
+                during their hiking adventure. This detailed overview includes
+                essential provisions such as breakfast, ensuring that users are
+                well-equipped to start their day with nourishment and energy.
+              </p>
+            </div>
+          </div>
+          <div className="bg-green-900 p-8 md:p-12 xs:mb-[20px] border-opacity-[50%] rounded-lg border-[3.5px] border-gray-300">
+            <h2 className="text-green-50 text-left lg:text-5xl font-thin uppercase text-3xl md:text-4xl mb-4">
+              Role of High-Fidelity Wireframes in Crafting The Hidden Shrine
+            </h2>
+            <p className="text-gray-200 text-left font-poppins lg:mb-[10px] sm:mb-[30px] text-base md:text-lg">
+              In the earlier stages of wireframing for the itinerary view of The
+              Hidden Shrine, we focused on creating low-fidelity wireframes to
+              establish the foundational layout and structure. These wireframes
+              provided a basic outline of the screen's components, including the
+              placement of key elements such as navigation bars, content
+              sections, and interaction buttons. As we transitioned to
+              high-fidelity wireframes, we introduced additional details to
+              enhance the visual representation of the itinerary view. This
+              included incorporating different icons for various categories,
+              such as sacred hikes, cultural routes, yokai spots, and mountain
+              temples. These icons serve as visual cues to users, helping them
+              quickly identify and differentiate between different types of
+              itineraries. By refining the design with high-fidelity wireframes
+              and adding these visual elements, we aim to create a more engaging
+              and intuitive user experience for exploring Kitsune's Veil.
+            </p>
+            <div className="w-full max-w-5xl mt-4 mb-12 flex flex-col items-center">
+              <img
+                src={shrineImage13}
+                alt="Hidden Shrine Research Visualization"
+                className="w-full object-cover"
+              />
+            </div>
+          </div>
+          <div className="w-full max-w-5xl mt-4 mb-12 flex flex-col items-center">
+            <img
+              src={shrineImage14}
+              alt="Hidden Shrine Research Visualization"
+              className="w-full object-cover"
+            />
+          </div>
+          <p className="font-poppins decoration-gray-300 text-gray-500 decoration-opacity-50 underline">
+            Fifth Part
+          </p>
+          <h2 className="text-sky-200 lg:text-6xl text-5xl md:text-3xl mt-4 mb-8 leading-tight">
+            FINAL IMPLEMENTATION
+          </h2>
+          <p className="text-gray-400 font-poppins text-base mb-10 md:text-lg max-w-3xl mx-auto">
+            In the final implementation phase of Kitsune's Veil, we focused on
+            ensuring the application's responsiveness across various devices by
+            employing a multi-view approach. This involved displaying the
+            application on different devices, including desktop computers,
+            tablets, and smartphones, to accommodate the diverse preferences and
+            browsing habits of our users. By utilizing three distinct views
+            tailored to each device type, we aimed to optimize the user
+            experience and usability across different screen sizes and
+            resolutions. Through careful consideration of design elements such
+            as layout, typography, and navigation, we ensured that the
+            application remained visually appealing and functional regardless of
+            the device being used. This responsive design approach enhances
+            accessibility and usability, allowing users to seamlessly interact
+            with The Hidden Shrinel on their preferred device without
+            compromising on functionality or aesthetics.
+          </p>
+        </div>
+        <div className="w-full max-w-5xl mt-4 mb-12 flex flex-col items-center">
+          <img
+            src={shrineImage15}
+            alt="Hidden Shrine Research Visualization"
+            className="w-full object-cover"
+          />
+        </div>
+        <div className="text-center mt-20 mb-10">
+          <h2 className="text-xl md:text-2xls text-slate-700 mb-4">
+            🌸 You’ve reached the end of my case study!
+          </h2>
+          <p className="text-gray-500 font-poppins text-base md:text-lg max-w-2xl mx-auto mb-6 px-4">
+            Thank you so much for taking the time to explore this journey with
+            me. I hope you enjoyed diving into the story behind{" "}
+            <strong>The Hidden Shrine</strong> 🏯✨
+          </p>
+
+          <div className="mt-6 mb-6">
+            <a
+              href="https://www.figma.com/design/K6fpi5nE9pmCCJ1qjWzi0V/The-Hidden-Shrine?node-id=0-1&t=fwGNomJSxNQ4AwsJ-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-2 border-slate-700 text-slate-700 bg-white px-6 py-3 rounded-full text-sm font-semibold duration-700 transition hover:bg-slate-700 hover:text-white"
+            >
+              🌿 View the Prototype on Figma
+            </a>
+          </div>
         </div>
       </div>
     </motion.div>
