@@ -49,7 +49,7 @@ const HiddenShrineComponent = () => {
           />
           {image.description && (
             <p className="mt-2 text-left text-sm md:text-base text-gray-700">
-              <span className="font-bold">Detail:</span>
+              <span className="font-bold">Detail: </span>
               <span className="text-gray-400 font-poppins">
                 {image.description}
               </span>
@@ -197,7 +197,7 @@ const HiddenShrineComponent = () => {
         <p className="text-gray-400 mb-10 lg:mb-10 font-poppins text-base md:text-lg max-w-3xl mx-auto">
           In the ideation phase, we embarked on a journey of exploration and
           creativity, seeking to uncover innovative solutions and shape the
-          future of The Hidden Shrinel. Through a variety of brainstorming
+          future of The Hidden Shrine. Through a variety of brainstorming
           sessions, collaborative workshops, and creative exercises, we explored
           different perspectives, challenged assumptions, and generated a
           multitude of ideas to address the needs and desires of our audience.
@@ -219,7 +219,7 @@ const HiddenShrineComponent = () => {
       </h2>
       <p className="text-gray-400 text-center font-poppins text-base md:text-lg max-w-3xl mx-auto">
         In the Define phase, we created a Value Proposition Canvas to precisely
-        define the value that Kitsune's Veil offers to its target audience. This
+        define the value that The Hidden Shrine offers to its target audience. This
         tool allows us to clearly articulate the benefits and features of our
         platform and understand how they address the needs and desires of our
         users. By filling out the canvas, we identify the key elements of our
@@ -259,7 +259,7 @@ const HiddenShrineComponent = () => {
         needs and desires of our target audience, such as enthusiasts like Clara
         interested in Japanese folklore. This allowed us to tailor our
         platform's features and content to effectively address these needs,
-        ensuring that Kitsune's Veil offers compelling value and resonates with
+        ensuring that The Hidden Shrine offers compelling value and resonates with
         its intended users. Additionally, the canvas facilitated collaboration
         and alignment within our team, enabling us to focus our efforts on
         developing a platform that truly meets the expectations of our audience.
