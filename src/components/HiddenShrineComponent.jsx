@@ -131,7 +131,7 @@ const HiddenShrineComponent = () => {
         </p>
       </div>
       {/* Two images below */}
-      <div className="w-full max-w-5xl mt-4 mb-12 flex flex-col items-center">
+      <div className="w-full max-w-5xl mt-4 flex flex-col items-center">
         <img
           src={shrineImage5}
           alt="Hidden Shrine Research Visualization"
