@@ -251,7 +251,7 @@ const HiddenShrineComponent = () => {
           className="w-full object-cover"
         />
       </div>
-      <p className="text-gray-400 mb-10 lg:mb-10 font-poppins text-base md:text-lg max-w-3xl mx-auto">
+      <p className="text-gray-400 text-center mb-10 lg:mb-10 font-poppins text-base md:text-lg max-w-3xl mx-auto">
         Using the Value Proposition Canvas by Strategizer has been instrumental
         in clarifying and refining the value proposition of The Hidden Shrine.
         By systematically analyzing the customer segments, their pain points,

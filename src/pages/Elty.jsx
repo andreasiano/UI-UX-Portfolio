@@ -1,8 +1,25 @@
+import React from "react";
+import styles from "../style";
+import { ContactMe } from "../components";
+import { EltyComponent } from "../components";
+
 const Elty = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-primary text-white">
-      <h1 className="text-4xl font-bold">Elty</h1>
-    </div>
+    <>
+      <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+        <div
+          className={`${styles.boxWidth} flex flex-col justify-center items-center`}
+        >
+        <EltyComponent/>
+        </div>
+      </div>
+
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <ContactMe />
+        </div>
+      </div>
+    </>
   );
 };
 
