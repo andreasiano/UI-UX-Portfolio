@@ -130,7 +130,7 @@ const HiddenShrineComponent = () => {
         affected, ensuring accuracy and user confidence before the rule is
         finalized and applied.
       </p>
-      <p className="font-poppins decoration-gray-300 text-gray-500 decoration-opacity-50 underline">
+      <p className="font-poppins mt-[50px] decoration-gray-300 text-gray-500 decoration-opacity-50 underline">
         Fourth Part
       </p>
       <h2 className="text-orange-400 lg:text-6xl text-5xl md:text-3xl mt-4 mb-8 leading-tight">
