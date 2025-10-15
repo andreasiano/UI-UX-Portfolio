@@ -42,10 +42,20 @@ export const imgData = [
   },
   {
     id: 3,
+    title: "CMP Reply",
+    img: img5,
+    description:
+      "This is a modern, single-page application designed for managing resources across a hybrid or multi-cloud environment.",
+    button: "See Case Study",
+    link: "/CMP", // 👈 external
+    icon: <BsFillArrowRightCircleFill />,
+  },
+  {
+    id: 5,
     title: "Rebrandly",
     img: img4,
     description:
-      "A link management platform built with Elementor Pro and used to help businesses transform long generic URLs.",
+    "A link management platform built with Elementor Pro and used to help businesses transform long generic URLs.",
     button: "See Web Portal",
     link: "https://www.rebrandly.com/", // 👈 external
     icon: <BsFillArrowRightCircleFill />,
@@ -58,16 +68,6 @@ export const imgData = [
       "ST Microelectronics is a global company specialized in semiconductors. This is their main home page built with Elementor Pro.",
     button: "See Web Portal",
     link: "https://www.st.com/content/st_com/en.html", // 👈 external
-    icon: <BsFillArrowRightCircleFill />,
-  },
-  {
-    id: 5,
-    title: "Welkin CMP",
-    img: img5,
-    description:
-      "A platform created to manage different cloud connections with a prototype and its design system.",
-    button: "See Case Study",
-    link: "/CMP", // 👈 external
     icon: <BsFillArrowRightCircleFill />,
   },
   {

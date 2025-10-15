@@ -6,21 +6,6 @@ import eltyImg4 from "../assets/EltyImg4.png";
 import eltyImg5 from "../assets/EltyImg5.png";
 import eltyImg6 from "../assets/EltyImg6.png";
 import eltyImg7 from "../assets/EltyImg7.png";
-import shrineImage2 from "../assets/HiddenShrineImg2.png";
-import shrineImage3 from "../assets/HiddenShrineImg3.png";
-import shrineImage4 from "../assets/HiddenShrineImg4.png";
-import shrineImage5 from "../assets/HiddenShrineImg5.png";
-import shrineImage6 from "../assets/HiddenShrineImg6.png"; // new image for the right side
-import shrineImage7 from "../assets/HiddenShrineImg7.png"; // new image for the right side
-import shrineImage8 from "../assets/HiddenShrineImg8.png"; // new image for the right side
-import shrineImage9 from "../assets/HiddenShrineImg9.png";
-import shrineImage10 from "../assets/HiddenShrineImg10.png"; // new image for the right side
-import shrineImage11 from "../assets/HiddenShrineImg11.png"; // new image for the right side
-import shrineImage12 from "../assets/HiddenShrineImg12.png"; // new image for the right side
-import shrineImage13 from "../assets/HiddenShrineImg13.png"; // new image for the right side
-import shrineImage14 from "../assets/HiddenShrineImg14.png"; // new image for the right side
-import shrineImage15 from "../assets/HiddenShrineImg15.png"; // new image for the right side
-import shrineImage16 from "../assets/HiddenShrinePorcoDio.png"; // new image for the right side
 
 const HiddenShrineComponent = () => {
   return (
@@ -255,7 +240,7 @@ const HiddenShrineComponent = () => {
         <p className="font-poppins mt-20 decoration-gray-300 text-gray-500 decoration-opacity-50 underline">
           Fifth Part
         </p>
-        <h2 className="text-sky-200 lg:text-6xl text-5xl md:text-3xl mt-4 mb-8 leading-tight">
+        <h2 className="text-teal-400 lg:text-6xl text-5xl md:text-3xl mt-4 mb-8 leading-tight">
           HIGH FIDELITY
         </h2>
         <div className="w-full max-w-5xl flex flex-col items-center">
@@ -274,8 +259,7 @@ const HiddenShrineComponent = () => {
             Thank you for taking the time to analyze the challenges and proposed
             solutions for the General Practitioners' user interface. I hope the
             deep dive into the prototype was helpful. Check back soon for new
-            updates!
-            <strong> Simplified Healthcare Management</strong> 💡🏥
+            updates! 💡🏥
           </p>
 
           <div className="mt-6 font-poppins mb-6">

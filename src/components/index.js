@@ -4,7 +4,8 @@ import ImageCard from "./ImageCards";
 import ContactMe from "./ContactMe";
 import HiddenShrineComponent from "./HiddenShrineComponent";
 import EltyComponent from "./EltyComponent";
+import CMPComponent from "./CMPComponent";
 
 
 
-export {Navbar, Hero, ImageCard, ContactMe, HiddenShrineComponent, EltyComponent}
+export {Navbar, Hero, ImageCard, ContactMe, HiddenShrineComponent, EltyComponent, CMPComponent}
